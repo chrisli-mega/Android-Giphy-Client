@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/change_url"
+        android:title="@string/change_url" />
+    <item android:id="@+id/convert_stickers_gifs"
+        android:title="@string/convert_stickers_and_gifs" />
+</menu>

@@ -37,7 +37,7 @@ class MainView : LinearLayout {
     init {
         var activity = context as BaseActivity
         activity.viewComponent.inject(this)
-        gifAdapter = GifAdapter(activity)
+        gifAdapter = GifAdapter(activity, "multiple")
 
         initView()
         configureInstanceState()
@@ -123,11 +123,11 @@ class MainView : LinearLayout {
 
     private fun showResultsCount(count: Int) {
         if (count == 0) {
-            resultsCountTextView.text = "No gifs found"
+            resultsCountTextView.text = "No results found"
         } else if (count == 1) {
-            resultsCountTextView.text = "1 gif found"
+            resultsCountTextView.text = "1 result found"
         } else {
-            resultsCountTextView.text = "$count gifs found"
+            resultsCountTextView.text = "$count results found"
         }
     }
 

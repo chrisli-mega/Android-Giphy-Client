@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-Giphy-Client.iml" filepath="$PROJECT_DIR$/Android-Giphy-Client.iml" group="Android-Giphy-Client" />
+      <module fileurl="file://$PROJECT_DIR$/app/Android-Giphy-Client-app.iml" filepath="$PROJECT_DIR$/app/Android-Giphy-Client-app.iml" group="Android-Giphy-Client/app" />
       <module fileurl="file://$PROJECT_DIR$/GifHub.iml" filepath="$PROJECT_DIR$/GifHub.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

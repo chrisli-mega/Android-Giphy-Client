@@ -11,7 +11,7 @@ import rx.Observable
 import timber.log.Timber
 import javax.inject.Inject
 
-class GifAdapter(val activity: BaseActivity) : RecyclerView.Adapter<GifViewHolder>() {
+class GifAdapter(val activity: BaseActivity, val type: String) : RecyclerView.Adapter<GifViewHolder>() {
 
     @Inject lateinit var presenter: SearchPresenter
     @Inject lateinit var instanceStateManager: InstanceStateManager

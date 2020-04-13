@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.view.TestRandomActivity"
+    tools:showIn="@layout/activity_test_random">
+
+    <EditText
+        android:id="@+id/editTextTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="the tag"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="g, pg, pg-13, r"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTag"
+        app:layout_constraintStart_toStartOf="@+id/editTextTag"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTag" />
+
+    <Button
+        android:id="@+id/buttonTestRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/editTextRating"
+        app:layout_constraintStart_toStartOf="@+id/editTextRating"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRating" />
+
+    <ImageView
+        android:id="@+id/imageViewTestRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonTestRandom"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</android.support.constraint.ConstraintLayout>

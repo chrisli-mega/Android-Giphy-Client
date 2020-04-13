@@ -1,3 +1,17 @@
 <resources>
-  <string name="app_name">Gif Hub</string>
+    <string name="app_name">Gif Hub</string>
+    <string name="change_url">Change Url</string>
+    <string name="URL_PREFERENCE">URL_PREFERENCE</string>
+    <string name="convert_stickers_and_gifs">convert stickers and gifs</string>
+    <string name="OK_BUTTON">OK</string>
+    <string name="DISMISS_BUTTON">DISMISS</string>
+    <string name="URL_CONFIG">URL</string>
+    <string name="STICKERS_OR_GIFS_CONFIG">STICKERS OR GIFS</string>
+    <string name="BUTTON_BACK_TO_DEFAULT">Back to DEFAULT</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="testing_n_search_gifs_stickers_n_trending_gifs_stickers_n_gifs_by_ids">Testing:\n  Search GIFs/Stickers\n   Trending GIFs/Stickers\n   GIFs by IDs</string>
+    <string name="test">Test</string>
+    <string name="title_activity_test_get_gif_by_id">Test Get Gif By ID</string>
+    <string name="title_activity_test_translate">Test Translate</string>
+    <string name="title_activity_test_random">Test Random </string>
 </resources>
